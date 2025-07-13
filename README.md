@@ -1,6 +1,7 @@
 Setup Project
 Open terminal/command prompt and run:
 npm create vite@latest lexi-legal-assistant -- --template react
+
 cd lexi-legal-assistant
 Then install packages:
 npm install
