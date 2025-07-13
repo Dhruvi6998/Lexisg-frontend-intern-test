@@ -1,0 +1,76 @@
+/* App.css */
+body {
+  background-color: #f9f9fc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #1d4ed8;
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+}
+
+button {
+  margin-top: 16px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.card {
+  margin-top: 30px;
+  background-color: #f3f4f6;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #1f2937;
+}
+
+.highlight {
+  background-color: #fff9c4;
+  padding: 16px;
+  border-left: 4px solid #facc15;
+  margin-top: 12px;
+  border-radius: 6px;
+}
